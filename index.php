@@ -1,4 +1,18 @@
-<?php include 'includes/header.php'; ?>
+<?php
+include 'functions.php';
+?>
+<div class="banner">
+    <img src="images/banner1.jpg" alt="Banner 1">
+    <p><?php echo getBannerText('banner1.jpg'); ?></p>
+</div>
+<div class="banner">
+    <img src="images/banner2.jpg" alt="Banner 2">
+    <p><?php echo getBannerText('banner2.jpg'); ?></p>
+</div>
+<div class="banner">
+    <img src="images/banner3.jpg" alt="Banner 3">
+    <p><?php echo getBannerText('banner3.jpg'); ?></p>
+</div>
 <body>
     
         <main>
@@ -27,7 +41,7 @@
 
             <nav class="navbar navbar-expand-lg bg-light shadow-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <strong>Nomad Force</strong>
                     </a>
 
@@ -405,4 +419,3 @@
         <script src="js/custom.js"></script>
 
     </body>
-</html>
